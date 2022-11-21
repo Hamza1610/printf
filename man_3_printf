@@ -1,5 +1,5 @@
-.TH _printf 1 "April 16, 2022" "version 1.0" "_printf man page"
-.SH NAME
+.TH _printf 1 "November, 2022"
+..SH NAME
 _printf - format and print data
 .SH SYNOPSIS
 #include <unistd.h> <stdarg.h> <stdlib.h> "main.h"
@@ -8,7 +8,7 @@ int printf(const char *format, ...);
 
 .SH DESCRIPTION
 function that produces output according to a format.  Writes the output under the control of a format string that specifies how subsequent arguments (or arguments accessed via the variable-length argument facilities of stdarg(3)) are converted for output.  Execute according to option:
-
+i
 .I
 .SS CONVERSION SPECIFIERS:
 .RS
@@ -29,6 +29,11 @@ The unsigned int argument is converted to unsigned octal (o), unsigned decimal (
 
 .IP p
 The void * pointer argument is printed in hexadecimal (as if by %#x or %#lx).
+
+
+
+
+
 
 .I
 .SS CUSTOM CONVERSION SPECIFIERS
@@ -84,4 +89,5 @@ If an output error is encountered, a negative value (-1) is returned.
 .SH BUGS
 Report _printf Elizabeth Salako (waleade602@gmail.com), Kouam Franck Joel Gaetan (kouamfranck96@gmail.com)
 .SH AUTHORS
-ELizabeth Salako and Kouam Franck Joel Gaetan, ALX Cohort 5.
+	
+Lizabeth Salako and Kouam Franck Joel Gaetan, ALX Cohort 5.

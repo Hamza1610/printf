@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_int - prints an integer
  * @l: va_list of arguments from _printf
@@ -20,7 +19,6 @@ int print_int(va_list l, flags_t *f)
 		res++;
 	print_number(n);
 	return (res);
-}
 
 /**
  * print_unsigned - prints an unsigned integer
@@ -61,8 +59,8 @@ void print_number(int n)
 }
 
 /**
- * count_digit - returns the number of digits in an integer
- * for _printf
+ * count_digit - return the number of digits in an integer
+ * the _printf
  * @i: integer to evaluate
  * Return: number of digits
  */

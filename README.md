@@ -1,7 +1,7 @@
 Authors:
 Printf Alx peer project, authored by Masud L. Dila and Hamza Muhammad 
 
-Destlcription:
+Description:
 A project that was built to print just as the standard "printf" function. Project use variadic functions to solve problems.
 
 How to execute program:

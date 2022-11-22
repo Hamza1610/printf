@@ -6,5 +6,6 @@ A project that was built to print just as the standard "printf" function. Projec
 
 How to execute program:
 Use are to use "gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c" format to compile files.
+
 Date:
 21-11-2022
